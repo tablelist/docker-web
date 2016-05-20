@@ -2,8 +2,12 @@
 Docker container for Tablelist Web projects
 
 * Based on the Node JS Docker image
-* Installs
-⋅⋅* Bower
+
+Installs the following:
+* Bower
+* Gulp
+* Google Chrome
+* xvfb (for running browsers with a virtual display)
 
 ## Updating the Docker image
 1. Install Docker Command Line Tools https://docs.docker.com/engine/installation/mac/.
