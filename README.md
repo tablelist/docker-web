@@ -1,7 +1,11 @@
 # docker-web
 Docker container for Tablelist Web projects
 
-# Updating the Docker imgage
+* Based on the Node JS Docker image
+* Installs
+⋅⋅* Bower
+
+## Updating the Docker image
 1. Install Docker Command Line Tools https://docs.docker.com/engine/installation/mac/.
 2. Log in to the Docker from the command line https://docs.docker.com/engine/reference/commandline/login/
 3. Clone this repository
