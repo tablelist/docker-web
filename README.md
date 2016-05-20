@@ -1,25 +1,13 @@
 # docker-web
-Docker container for Tablelist Web projects
+Dockerfile for Tablelist's Web projects
 
-* Based on the Node JS Docker image
+Contains:
 
-Installs the following:
 * Bower
 * Gulp
 * Google Chrome
 * xvfb (for running browsers with a virtual display)
 
-## Updating the Docker image
-1. Install Docker Command Line Tools https://docs.docker.com/engine/installation/mac/.
-2. Log in to the Docker from the command line https://docs.docker.com/engine/reference/commandline/login/
-3. Clone this repository
-4. `cd` to the directory of the git repository
-5. Make your changes to the `Dockerfile`
-6. Create a Docker Container from the update `Dockerfile` by running:
-``` bash
-docker build -t officert/tablelist-web .
-```
-7. Push the container to Dockerhub by running:
-``` bash
-docker push officert/tablelist-web
-```
+Publishing
+
+The docker-web container is set to build automatically, so you do not need to manually push new images.
