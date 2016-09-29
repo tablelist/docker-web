@@ -1,4 +1,4 @@
-FROM node:4.4.3
+FROM node:4.6.0
 
 MAINTAINER Tablelist "dev@tablelist.com"
 
